@@ -1,0 +1,28 @@
+{
+  "name": "e-cell_website",
+  "version": "1.0.0",
+  "description": "E-Cell, IITM Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Web and mobile Operations, E-Cell",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.3.0",
+    "aws-sdk": "^2.791.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "q": "^1.5.1",
+    "uuid": "^8.3.1"
+  }
+}

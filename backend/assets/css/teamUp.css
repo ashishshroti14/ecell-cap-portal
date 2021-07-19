@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
+
+#landing {
+    background: linear-gradient(297deg, #7eafdc, #7ed1dc, #16b1cb, #8652e6, #b28cf6, #6ab1c8);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: gradient-anim 10s ease infinite;
+    -moz-animation: gradient-anim 10s ease infinite;
+    -o-animation: gradient-anim 10s ease infinite;
+    animation: gradient-anim 10s ease infinite;
+}
+
+@-webkit-keyframes gradient-anim {
+    0% {
+        background-position: 0% 73%;
+    }
+    50% {
+        background-position: 100% 28%;
+    }
+    100% {
+        background-position: 0% 73%;
+    }
+}
+@-moz-keyframes gradient-anim {
+    0% {
+        background-position: 0% 73%;
+    }
+    50% {
+        background-position: 100% 28%;
+    }
+    100% {
+        background-position: 0% 73%;
+    }
+}
+@-o-keyframes gradient-anim {
+    0% {
+        background-position: 0% 73%;
+    }
+    50% {
+        background-position: 100% 28%;
+    }
+    100% {
+        background-position: 0% 73%;
+    }
+}
+@keyframes gradient-anim {
+    0% {
+        background-position: 0% 73%;
+    }
+    50% {
+        background-position: 100% 28%;
+    }
+    100% {
+        background-position: 0% 73%;
+    }
+}
+
+img {
+    width: 95%;
+}
+.middle {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 992px) {
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+    .quote {
+        text-align: center;
+    }
+}
+h1,
+h2,
+div,
+p {
+    font-family: "Open Sans", sans-serif !important;
+}
+p {
+    font-size: larger;
+}
+h1 {
+    font-size: 5em;
+    margin-bottom: 0 !important;
+    font-weight: 800;
+}
+@media (min-width: 992px) {
+    #entry-student {
+        margin-right: 6em;
+    }
+}
+.entry-button {
+    line-height: 350% !important;
+}

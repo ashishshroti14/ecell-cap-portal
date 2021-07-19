@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+#environment variables
+.env
+
+#other local directories
+startup-series-reg-form-client
+startup-series-idea-val-reports/*.pdf
+
+#logs
+*.log
+
+# development 
+*.http
+test
+.vscode

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Startup Series</title>
+        <meta name="description" content="" />
+    </head>
+    <body>
+        <form action="/data/submit-startup-series-reg-form" method="post" enctype="multipart/form-data">
+            <input type="text" name="leaderName" required placeholder="Name (Team Leader)" /><br />
+            <input type="email"name="leaderEmail" required placeholder="E-Mail (Team Leader)" /><br />
+            <input type="text" name="leaderRoll" required placeholder="Roll No." /><br />
+            <input type="text" name="leaderPhone" id="phone" required placeholder="Mobile No."><br>
+            <input type="text" name="leaderYearOfStudy" id="leaderYearOfStudy" required placeholder="Year of study"><br>
+            <input type="number" name="numCoFounders" id="numCoFounders" required placeholder="No. of Co-founders"><br>
+            <label for="startupStage">Stage of Start-Up</label><br>
+            <select name="startupStage" id="startupStage">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+            <label for="startupSector">Sector of Start-Up</label><br>
+            <select name="startupSector" id="startupSector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+            <div>
+                Are you an Ideathon Participant?<br>
+                <label for="ideathon_true">Yes</label>
+                <input type="radio" name="ideathonParticipant" id="ideathon_true" onclick=displayUploader()>
+                <label for="ideathon_false">No</label>
+                <input type="radio" name="ideathonParticipant" id="ideathon_false" onclick=displayUploader()>
+            </div>
+            <label for="pdfFile">Select PDF file to upload</label>
+            <input type="file" name="pdfFile" required />
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+    <script src="/js/startup_series_reg_scripts.js"></script>
+</html>

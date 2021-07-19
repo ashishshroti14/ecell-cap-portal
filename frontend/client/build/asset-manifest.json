@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cap-admin-static/css/main.648243b0.chunk.css",
+    "main.js": "/cap-admin-static/js/main.7016f6e9.chunk.js",
+    "main.js.map": "/cap-admin-static/js/main.7016f6e9.chunk.js.map",
+    "runtime-main.js": "/cap-admin-static/js/runtime-main.52200066.js",
+    "runtime-main.js.map": "/cap-admin-static/js/runtime-main.52200066.js.map",
+    "static/js/2.80eb9989.chunk.js": "/cap-admin-static/js/2.80eb9989.chunk.js",
+    "static/js/2.80eb9989.chunk.js.map": "/cap-admin-static/js/2.80eb9989.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.648243b0.chunk.css.map": "/cap-admin-static/css/main.648243b0.chunk.css.map",
+    "static/js/2.80eb9989.chunk.js.LICENSE.txt": "/cap-admin-static/js/2.80eb9989.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52200066.js",
+    "static/js/2.80eb9989.chunk.js",
+    "static/css/main.648243b0.chunk.css",
+    "static/js/main.7016f6e9.chunk.js"
+  ]
+}

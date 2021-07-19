@@ -1,0 +1,73 @@
+.gradient {
+    font-size: 6em;
+    background: -webkit-radial-gradient(circle, #fff,#ddd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#my-nav>li>a {
+    color: white !important;
+}
+
+#my-nav>li>a:hover {
+    background-color: white;
+    color: #001d55 !important;
+}
+
+header.sticky-active #my-nav>li>a {
+    color: #001d55 !important;
+}
+
+header.sticky-active #my-nav>li>a:hover {
+    background-color: #001d55;
+    color: white !important;
+}
+
+#my-nav>li>a:enabled {
+    text-decoration: underline;
+}
+
+#my-nav>li {
+    margin-left: 0 !important;
+}
+
+#topbar {
+    color: #001d55 !important;
+}
+
+#my-nav>li>#my-dropdown-nav {
+    background-color: whitesmoke;
+    border: none;
+}
+
+#my-nav>li>#my-dropdown-nav>li>a {
+    color: #001d55;
+}
+
+#my-nav>li>#my-dropdown-nav>li>a:hover {
+    background-color: #001d55;
+    color: white;
+}
+
+button.btn.btn-white, button.btn.btn-light, .btn:not(.close):not(.mfp-close).btn-white, .btn:not(.close):not(.mfp-close).btn-light, a.btn:not([href]):not([tabindex]).btn-white, a.btn:not([href]):not([tabindex]).btn-light {
+    background-color: #e6e8eb;
+    border-color: #e6e8eb;
+    color: #4c5667;
+}
+
+header.sticky-active #my-nav>li>a {
+    color: #001d55 !important;
+ }
+ 
+ header.sticky-active #my-nav>li>a:hover {
+    background-color: #001d55;
+    color: white !important;
+ }
+@media screen and (max-width: 1024px) {
+    #my-nav>li>a {
+        color: #001d55 !important;
+    }
+}
+

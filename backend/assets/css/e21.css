@@ -1,0 +1,14 @@
+.shape-divider.type-1 {
+    filter: brightness(0) invert(95%) sepia(4%) saturate(265%) hue-rotate(85deg) brightness(104%) contrast(95%) !important;
+}
+.timeline-icon {
+    background-color: azure !important;
+}
+.timeline-icon i {
+    transform: scale(0.9);
+    color: #222222 !important;
+}
+
+.shape-divider.type-2{
+    filter: brightness(0) invert(83%) sepia(33%) saturate(92%) hue-rotate(300deg) brightness(110%) contrast(98%) !important;
+}
