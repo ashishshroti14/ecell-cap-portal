@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 
-const AccessKeyId = "AKIA2NEDFFMLXG76OMFE";
-const SecretAccessKey = "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";
+const AccessKeyId = "";
+const SecretAccessKey = "";
 
 const regionName = "ap-south-1";
 
